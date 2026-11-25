@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Historia Aeterna</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+
+
+<body>
+
+  <header>
+    <nav class="barra-superior">
+      <a href="#portada" class="inicio" aria-label="Portada">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+          <polyline points="9 22 9 12 15 12 15 22"/>
+        </svg>
+        <span>Inicio</span>
+      </a>
+
+      <!-- Menú de navegación -->
+      <!-- "ul" sirve para crear una lista de elementos -->
+      <!-- "li" es un elemento de lista -->
+      <!-- "a" es un enlace -->
+      <!-- "href" indica la dirección del enlace -->
+      <ul class="enlaces">
+        <li><a href="#mapas">Mapas</a></li>
+        <li><a href="#heraldica">Heráldica</a></li>
+        <li><a href="#historia">Historia</a></li>
+      </ul>
+
+      <button id="cambiar-tema">Cambiar tema</button>
+    </nav>
+  </header>
+  
+
+  <main>
+    <section id="portada" class="activa">     <!-- Activa por defecto -->
+      <h1>Historia Aeterna</h1>
+      <p>Bienvenido a este espacio digital dedicado a explorar algunos rincones menos conocidos de la historia, el simbolismo de los blasones y la evolución territorial de las fronteras y naciones a través de los siglos.</p>
+      <p>Encontrarás mapas explicados, análisis heráldicos y eventos interesantes.</p>
+
+      <h2>Secciones del archivo</h2>
+      <div class="portada-rejilla">
+        <a href="#mapas" class="portada-tarjeta">
+          <span class="portada-etiqueta">Cartografía</span>
+          <h3>La Península Ibérica en el 1099</h3>
+          <p>El año de la muerte del Cid. Análisis del mapa y los reinos en ese momento.</p>
+          <span class="portada-leer">Explorar mapas →</span>
+        </a>
+
+        <a href="#heraldica" class="portada-tarjeta">
+          <span class="portada-etiqueta">Heráldica</span>
+          <h3>Los errores del escudo de España</h3>
+          <p>¿Sabías que es heráldicamente incorrecto y ni siquiera coincide con el blasón (descripción) oficial? Figémonos en él.</p>
+          <span class="portada-leer">Explorar heráldica →</span>
+        </a>
+
+        <a href="#historia" class="portada-tarjeta">
+          <span class="portada-etiqueta">Historia Militar</span>
+          <h3>Batalla de Lácar (1875)</h3>
+          <p>Dos reyes cara a cara en el valle de Yerri: la audaz ofensiva carlista de Carlos VII que puso en jaque al joven Alfonso XII.</p>
+          <span class="portada-leer">Explorar historia →</span>
+        </a>
+      </div>
+
+      <blockquote class="cita">
+        «La historia es la escuela de los príncipes.»
+        <footer>- Federico II el Grande, rey de Prusia</footer>
+      </blockquote>
+    </section>
+
+    <section id="mapas">
+      <h1>Mapas</h1>
+      <h2>La Península Ibérica en el 1099: La muerte del Cid</h2>
+      <p>Para este entonces el Cid Campeador, Rodrigo Díaz de Vivar, había logrado sus grandes victorias. Alfonso VI se había proclamado emperador. Y los Almorávides entrado en la península y unificado casi todas las taifas.</p>
+      <figure class="cuadro-imagen">
+        <div class="caja-mapa">
+          <img src="assets/Península 1099.svg" alt="Mapa de la Península Ibérica en el 1099" class="mapa">
+        </div>
+        <figcaption>Mapa de la Península Ibérica en el 1099.</figcaption>
+      </figure>
+      <h3>El Imperio de Hispania</h3>
+      <p>El imperio agrupa los Reinos de León, Castilla y Toledo, y los condados de Galicia y Portucale. Todos ellos por Alfonso VI, quien se coronó "Imperator totius Hispaniae" (Emperador de toda Hispania) para tratar de llevar a cabo el sueño de reunificar la toda península.</p>
+      <p>El gran hito que explica esta aspiración fue, primero, la unificación de los Reinos de Galicia (que dividió en dos condados), Castilla y León, unificación que lo convirtió en el soberano más poderoso de la península; y, tras ello, la toma de Toledo en 1085, que fue un gran hito estratégico y simbólico reconquistar la antigua capital del Reino Visigodo.</p>
+      <h3>Señorío de Valencia y vasallos del Cid</h3>
+      <p>Este territorio era el dominio personal de Rodrigo Díaz de Vivar, el Cid Campeador, quien había conquistado la ciudad en el 1094. Aunque gobernaba Valencia como un señorío autónomo y mantenía como vasallos a los pequeños emiratos de Albarracín y Alpuente con gran autonomía, el Cid siempre mantuvo un vasallaje formal hacia Alfonso VI, reconociendo su autoridad como emperador.</p>
+      <p>El Cid muere en julio de este año, dejando el gobierno y la defensa de Valencia en manos de su viuda, doña Jimena, que lograría resistir el asedio almorávide hasta el 1102.</p>
+      <h3>La Unión Personal de Aragón y Pamplona</h3>
+      <p>Esta unión personal se forjó en el 1076, tras el asesinato del rey Sancho IV de Pamplona (aún no existía el reino de Navarra) a manos de sus hermanos. Ante el vacío de poder, la nobleza pamplonesa eligió como rey a su primo, Sancho Ramírez de Aragón, mientras Alfonso VI aprovechaba para anexionarse La Rioja y los territorios vascos. En 1099, ambos reinos estaban gobernados por Pedro I, hijo de Sancho Ramírez, quien impulsaba la expansión hacia el valle del Ebro.</p>
+      <h3>El Conde de Barcelona y condados catalanes</h3>
+      <p>Aunque según el Rey de Francia seguían siendo sus vasallos, ya habían declarado su total independencia y Francia no tenía ningún poder sobre ellos. En 1099, el Conde Ramón Berenguer III, también nombrado en algunos documentos como Marqués o Príncipe de la Marca Hispánica o Gothia (en honor al Reino Visigodo) o Duque de Cataluña, gobernaba los Condados de Barcelona, Gerona y Osona, y ejercía la hegemonía sobre los demás condes mediante una red de pactos de fidelidad llamados "convenientiae" y alianzas matrimoniales que consolidaron a Barcelona como el centro político y económico de la región. Bajo su reinado se escribe por primera vez "Cataluña" o "catalanes".</p>
+      <h3>El Imperio Almorávide</h3>
+      <p>Todo el sur peninsular (Al-Ándalus) y el Magreb pertenecen al Imperio Almorávide. Tras la caída de Toledo en 1085, los debilitados reyes de taifas pidieron auxilio a este imperio bereber del norte de África. Los almorávides cruzaron el estrecho, frenaron a Alfonso VI en la batalla de Sagrajas (1086) y, acto seguido, depusieron a los propios reyes de taifas del sur (Sevilla, Granada, Badajoz) por considerarlos corruptos y débiles, reunificando Al-Ándalus bajo un mando centralizado y frenando la expansión cristiana durante décadas.</p>
+    </section>
+
+    <section id="heraldica">
+      <h1>Heráldica</h1>
+      <h2>Los errores del escudo de España</h2>
+      <p>Todos hemos visto mil veces el escudo de España. ¿Pero sabías que es heráldicamente incorrecto y ni siquiera coincide con el blasón (descripción) oficial? Figémonos en él.</p>
+      <figure class="cuadro-imagen">
+        <div class="caja-grande">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/85/Escudo_de_Espa%C3%B1a_%28mazonado%29.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="Escudo oficial del Reino de España" class="icono" data-pagina="https://commons.wikimedia.org/wiki/File:Escudo_de_Espa%C3%B1a_(mazonado).svg">
+        </div>
+        <figcaption>Diseño oficial del escudo de España.</figcaption>
+      </figure>
+      <h3>El león</h3>
+      <p>¿De qué color es el león? Los hay representados en rosa, morado y rojo. Según el diseño oficial que vemos es rosa. Pero según el blasón oficial es "un león rampante, de púrpura, linguado, uñado, armado de gules o rojo y coronado de oro.", por tanto el diseño oficial contradice la ley. En la heráldica los esmaltes (colores) no tienen tonos obligatorios, pero deben ser reconocibles por todos, es decir, una persona cualquiera debería verlo y saber al instante que es púrpura (o al menos morado o violeta) y no rosa.</p>
+      <p>Como curiosidad con la llegada de los Austrias el león púrpura se comenzó a blasonar de gules (rojo) porque los heraldos provenientes del Sacro Imperio nunca habían visto el púrpura en heráldica y pensaron que era un error que se mantuvo con los Borbones, la República, Franco y la Transición (el escudo de la transición era distinto al actual) hasta que finalmente se corrigió en el blasón actual (y se introdujo el nuevo error del rosa en el diseño gráfico). Es por ello que hay muchísimos escudos antiguos donde aparece rojo el león.</p>
+      <h3>La granada</h3>
+      <p>En la heráldica los esmaltes deben tener un único tono dentro de un mismo escudo. Sin embargo, en el diseño oficial la granada es de un amarillo más claro que el resto, hay algunos esmaltes secundarios como el "sanguíneo" (rojo oscuro) frente al "gules" (rojo), pero el dorado/amarillo es "oro" siempre, no existe un "oro brillante" secundario. También hay quien dice que la granada no debería ser de oro sino de sínople (verde) como dice el blasón en la ley, técnicamente es correcto, pero también es cierto que la heráldica es flexible y tradicionalmente se ha pintado de oro la granada desde tiempos de los Reyes Católicos como representación de la realeza incluso aunque el blasón no lo indicara, por eso en los escudos republicanos siempre es verde salvo error.</p>
+      <h3>La corona imperial</h3>
+      <figure class="cuadro-imagen">
+        <div class="caja-normal">
+          <img src="assets/Corona Imperial Oficial.svg" alt="Corona Imperial según la ley" class="icono">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Corona_imperial_2.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="Corona Imperial según la heráldica" class="icono" data-pagina="https://commons.wikimedia.org/wiki/File:Corona_imperial_2.svg">
+        </div>
+        <figcaption>Corona Imperial según la ley (casquete de gules) y según la heráldica (casquete de oro).</figcaption>
+      </figure>
+      <p>Hay una corona sobre cada columna. Una es de rey (la derecha desde nuestro punto de vista). ¿Y la otra? Muchos nunca se han fijado en que son distintas; también existe el mito popular de que pertenece a la reina, pero la realidad es que en la heráldica no existe diferencia entre representar personas másculinas o femeninas (hubo alguna norma escrita pero han sido ignoradas a lo largo de toda la historia) por tanto no existe "Corona de Reina", solo "Corona Real", ni de Rey ni de Reina. La realidad es que se trata de la Corona Imperial, heredada de los tiempos cuando las Españas y el Sacro Imperio Romano estaban unidos bajo Carlos V/I.</p>
+      <p>La corona imperial tiene un "casquete" de gules oficialmente, aunque, una vez más, es otro error, ya no solo en el diseño si no en la ley que lo define. Debería de ser de oro según la heráldica y la lógica, un casquete es de metal, en este caso de oro, no rojo. El fallo se produjo porque la ley que define la corona imperial la hizo un jurista sin consultar a heraldistas ni tener conocimientos de heráldica, por cosas como estás deberían seguir habiendo heraldos reales o estatales (hoy día solo hay un rey de armas oficial en Castilla y León).</p>
+      <p>Los errores del diseño oficial se deben a que en lugar de contratar a un heraldo (o heraldista) contrataron a un diseñador gráfico de logos de empresas. Así que en cierto modo nuestro escudo de armas es más un logo que un escudo de armas de verdad... Por ello prefiero usar las representaciones que cumplen el blasón oficial, como algunas de estas.</p>
+      <figure class="cuadro-imagen">
+        <div class="caja-normal">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/85/Escudo_de_Espa%C3%B1a_%28mazonado%29.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="Escudo oficial del Reino de España" class="icono" data-pagina="https://commons.wikimedia.org/wiki/File:Escudo_de_Espa%C3%B1a_(mazonado).svg">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Coat_of_Arms_of_Spain.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="Escudo de España heráldicamente correcto según el blasón oficial" class="icono" data-pagina="https://commons.wikimedia.org/wiki/File:Coat_of_Arms_of_Spain.svg">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Current_coat_of_arms_of_Spain_according_to_heraldic_norm.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="Escudo de España heráldicamente correcto" class="icono" data-pagina="https://commons.wikimedia.org/wiki/File:Current_coat_of_arms_of_Spain_according_to_heraldic_norm.svg">
+        </div>
+        <figcaption>Disintas versiones del escudo de España. 1. Diseño oficial. 2. Blasón oficial (con la corona imperial oficial). 3. Heráldica correcta.</figcaption>
+      </figure>
+    </section>
+
+    <section id="historia">
+      <h1>Historia</h1>
+      <h2>Batalla de Lácar: Dos Reyes cara a cara</h2>
+      <p>La tarde del 3 de febrero de 1875, el valle navarro de Yerri fue escenario de una estampa excepcional en la Europa decimonónica: dos pretendientes al trono de España presentes a la vez en el mismo campo de batalla. A un lado, Alfonso XII, con 17 años apenas llevaba tres semanas en España tras el pronunciamiento de Sagunto (fin de la Primera República); al otro, Carlos VII, de 26 años, rey carlista durante la Tercera Guerra Carlista. Lo que ocurrió aquel día combinó una brillante apuesta táctica con el instante en que la recién nacida Restauración estuvo a punto de derrumbarse en cuestión de minutos.</p>
+      <figure class="cuadro-imagen">
+        <div class="caja-grande">
+          <img src="assets/Batalla de Lácar JORDY BRU.jpg" alt="Fotografía de una representación de la Batalla de Lácar hecha y editada por Jordi Bru" class="icono">
+        </div>
+        <figcaption>Fotografía de una representación de la Batalla de Lácar hecha y editada por Jordi Bru.</figcaption>
+      </figure>
+      <h3>Situación inicial</h3>
+      <p>Desembarcado en Barcelona el 9 de enero y recibido en Madrid el 14, el joven Alfonso XII había partido hacia el frente norte apenas cinco días después para dirigir sus tropas personalmente. Sin experiencia militar, delegaba el mando efectivo en el presidente Jovellar y los mandos del Ejército del Norte.</p>
+      <p>El plan inicial del cuartel general carlista, instalado en Puente la Reina, era estrictamente defensivo. Habían levantado una extensa línea de trincheras en el Carrascal para bloquear Pamplona y obligar al Ejército del Norte liberal a desgastarse en un asalto frontal. Sin embargo, era demasiado terreno que cubrir para las pocas tropas carlistas.</p>
+      <p>Los generales liberales Domingo Moriones y Fernando Primo de Rivera evitaron la trampa con una maniobra envolvente. Aprovechando que el general carlista Torcuato Mendiry había dejado desguarnecido el monte Esquinza, las columnas alfonsinas ocuparon esa altura junto con los pueblos de Lorca y Lácar.</p>
+      <p>La maniobra obligó a los carlistas a abandonar las fortificaciones en las que habían puesto todas sus esperanzas. Reunido de urgencia un consejo de guerra, Mendiry y la mayoría de los jefes coincidieron en la salida más prudente: ordenar la retirada para salvar el ejército.</p>
+      <h3>Carlos VII</h3>
+      <p>Al salir personalmente a comprobar unos hilos telegráficos cortados cerca de Cirauqui, el propio Carlos VII avistó a unos 20.000 soldados enemigos desplegados sobre Lorca, Lácar y las colinas cercanas, y envió un aviso a Mendiry. Al día siguiente, frente a la prudencia de su Estado Mayor, dió un golpe en la mesa: Él mismo comandaría la batalla y asumiría toda la responsabilidad de una posible derrota. Temía que una retirada sin combate hundiera la moral de sus cansados soldados.</p>
+      <figure class="cuadro-imagen">
+        <div class="caja-grande">
+          <img src="assets/Mapa Batalla de Lácar.png" alt="Mapa de la Batalla de Lácar" class="icono">
+        </div>
+        <figcaption>Plano de la batalla. Narración Militar de la Guerra Carlista de 1869 a 1876.</figcaption>
+      </figure>
+      <p>Su plan fue calculado al detalle. Fijó el objetivo en atacar Lácar y la hora de ataque a las 16:30 por tres motivos concretos: nadie esperaría una ofensiva tan cerca del anochecer; la escasez de municiones impedía sostener más de dos horas de fuego, por lo que había que resolver el combate a la bayoneta; y, a esa hora, las divisiones vecinas de Moriones y Despujols no tendrían tiempo de socorrer a Primo de Rivera.</p>
+      <h3>La "Sorpresa de Lácar"</h3>
+      <p>A la hora acordada, una única descarga de cañones dio la señal. Los batallones carlistas se lanzaron sobre Lácar y, apenas diez minutos después, el tiroteo cesó para dar paso a un feroz choque a la bayoneta en las calles del pueblo. La guarnición liberal, cogida completamente por sorpresa, se desmoronó en desbandada hacia Lorca lo que costó alrededor de 900 muertos y 300 prisioneros más heridos, frente a unas 30 muertes y 200 heridos en el bando carlista.</p>
+      <p>En medio del caos, Alfonso XII escuchó disparos cerca de su posición y vio caer herido a uno de sus ayudantes. Sus mandos organizaron de inmediato su retirada para evitar una captura que habría puesto fin a su reinado en el primer mes. La escena quedó fijada en la memoria popular como la mayor humillación sufrida por el ejército liberal, pero el éxito no alteró el rumbo estratégico de la guerra: los carlistas carecían de fuerzas y munición para perseguirles en la huida y, un año más tarde, el pretendiente tendría que cruzar la frontera camino del exilio.</p>
+    </section>
+  </main>
+
+  <!-- Visor de imágenes -->
+  <div id="visor" class="visor" aria-hidden="true">
+    <div class="visor-barra">
+      <a id="visor-descargar" class="boton-imagen" download>⬇ Descargar</a>
+      <button id="visor-boton-cerrar" class="visor-boton-cerrar" aria-label="Cerrar">✕</button>
+    </div>
+    <div id="visor-contenedor" class="visor-contenedor">
+      <img id="visor-imagen" alt="">
+    </div>
+  </div>
+
+</body>
+</html>
